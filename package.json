@@ -15,7 +15,7 @@
 	"dependencies": {
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
-		"lucide-react": "^0.487.0",
+		"lucide-react": "^0.488.0",
 		"mini-svg-data-uri": "^1.4.4",
 		"motion": "12.7.0",
 		"next": "15.1.5",
