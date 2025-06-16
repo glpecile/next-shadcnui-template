@@ -1,42 +1,41 @@
 {
-	"env": {
-		"browser": true,
-		"es2020": true,
-		"jest": true,
-		"node": true
-	},
-	"extends": [
-		"eslint:recommended",
-		"plugin:react/recommended",
-		"next/core-web-vitals",
-		"plugin:tailwindcss/recommended"
-	],
-	"parser": "@typescript-eslint/parser",
-	"parserOptions": {
-		"ecmaFeatures": {
-			"jsx": true
-		},
-		"ecmaVersion": 11,
-		"sourceType": "module"
-	},
-	"plugins": ["tailwindcss", "react", "react-hooks"],
-	"rules": {
-		"no-mixed-spaces-and-tabs": "off",
-		"react-hooks/rules-of-hooks": "error",
-		"react-hooks/exhaustive-deps": "warn",
-		"react/prop-types": "off",
-		"semi": ["error", "always"],
-		"react/react-in-jsx-scope": "off",
-		"tailwindcss/classnames-order": "off",
-		"tailwindcss/no-custom-classname": "warn",
-		"tailwindcss/no-contradicting-classname": "error"
-	},
-	"settings": {
-		"react": {
-			"version": "detect"
-		},
-		"tailwindcss": {
-			"callees": ["cn"]
-		}
-	}
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "jest": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "next/core-web-vitals"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-hooks"
+  ],
+  "rules": {
+    "no-mixed-spaces-and-tabs": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/prop-types": "off",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "react/react-in-jsx-scope": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }
