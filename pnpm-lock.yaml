@@ -37,7 +37,7 @@ dependencies:
     version: 3.3.1
   tailwindcss-animate:
     specifier: ^1.0.7
-    version: 1.0.7(tailwindcss@4.1.10)
+    version: 1.0.7(tailwindcss@4.1.11)
 
 devDependencies:
   '@biomejs/biome':
@@ -69,7 +69,7 @@ devDependencies:
     version: 15.3.3(eslint@9.29.0)(typescript@5.8.3)
   eslint-plugin-tailwindcss:
     specifier: ^3.17.5
-    version: 3.18.0(tailwindcss@4.1.10)
+    version: 3.18.0(tailwindcss@4.1.11)
   husky:
     specifier: ^9.1.7
     version: 9.1.7
@@ -77,8 +77,8 @@ devDependencies:
     specifier: ^8.5.5
     version: 8.5.6
   tailwindcss:
-    specifier: ^4.1.10
-    version: 4.1.10
+    specifier: ^4.1.11
+    version: 4.1.11
   typescript:
     specifier: ^5.8.3
     version: 5.8.3
@@ -2220,7 +2220,7 @@ packages:
       string.prototype.repeat: 1.0.0
     dev: true
 
-  /eslint-plugin-tailwindcss@3.18.0(tailwindcss@4.1.10):
+  /eslint-plugin-tailwindcss@3.18.0(tailwindcss@4.1.11):
     resolution: {integrity: sha512-PQDU4ZMzFH0eb2DrfHPpbgo87Zgg2EXSMOj1NSfzdZm+aJzpuwGerfowMIaVehSREEa0idbf/eoNYAOHSJoDAQ==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
@@ -2228,7 +2228,7 @@ packages:
     dependencies:
       fast-glob: 3.3.3
       postcss: 8.5.6
-      tailwindcss: 4.1.10
+      tailwindcss: 4.1.11
     dev: true
 
   /eslint-scope@8.4.0:
@@ -3960,16 +3960,20 @@ packages:
     resolution: {integrity: sha512-gBXpgUm/3rp1lMZZrM/w7D8GKqshif0zAymAhbCyIt8KMe+0v9DQ7cdYLR4FHH/cKpdTXb+A/tKKU3eolfsI+g==}
     dev: false
 
-  /tailwindcss-animate@1.0.7(tailwindcss@4.1.10):
+  /tailwindcss-animate@1.0.7(tailwindcss@4.1.11):
     resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
     dependencies:
-      tailwindcss: 4.1.10
+      tailwindcss: 4.1.11
     dev: false
 
   /tailwindcss@4.1.10:
     resolution: {integrity: sha512-P3nr6WkvKV/ONsTzj6Gb57sWPMX29EPNPopo7+FcpkQaNsrNpZ1pv8QmrYI2RqEKD7mlGqLnGovlcYnBK0IqUA==}
+    dev: true
+
+  /tailwindcss@4.1.11:
+    resolution: {integrity: sha512-2E9TBm6MDD/xKYe+dvJZAmg3yxIEDNRc0jwlNyDg/4Fil2QcSLjFKGVff0lAf1jjeaArlG/M75Ey/EYr/OJtBA==}
 
   /tapable@2.2.2:
     resolution: {integrity: sha512-Re10+NauLTMCudc7T5WLFLAwDhQ0JWdrMK+9B2M8zR5hRExKmsRDCBA7/aV/pNJFltmBFO5BAMlQFi/vq3nKOg==}
