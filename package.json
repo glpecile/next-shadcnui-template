@@ -2,7 +2,7 @@
 	"name": "next-shadcn-template",
 	"description": "Template repository with TNT stack + a basic shadcn-ui config",
 	"author": "Gian Luca Pecile",
-	"repository": "https://github.com/glpecile/next-14-shadcn-template",
+	"repository": "https://github.com/glpecile/next-shadcn-template",
 	"version": "0.4.0",
 	"private": true,
 	"scripts": {
