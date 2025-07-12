@@ -20,7 +20,7 @@ install_pnpm:
 
 install:
 	@echo "🛠️ Installing..."
-	pnpm install --merge-git-branch-lockfiles --frozen-lockfile
+	pnpm install --frozen-lockfile
 
 deps: install_pnpm install
 
