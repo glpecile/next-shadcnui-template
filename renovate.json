@@ -6,7 +6,6 @@
         "schedule:weekly",
         ":approveMajorUpdates",
         ":automergeMinor",
-        "schedule:weekly",
         ":semanticCommits",
         ":semanticCommitTypeAll(chore)"
     ],
