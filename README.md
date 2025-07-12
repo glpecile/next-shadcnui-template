@@ -94,7 +94,7 @@ Make sure to fix all linting errors before submitting a pull request.
 
 #### 🆙 Updating dependencies
 
-Dependencies are updated via renovate. The config setup allows for instant merge of miscellaneous minor dependencies and
+Dependencies are updated via [renovate](https://docs.renovatebot.com/). The config setup allows for instant merge of miscellaneous minor dependencies and
 issues for major ones which should be done manually.
 
 Additionally, you can run:
