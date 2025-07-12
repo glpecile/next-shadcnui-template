@@ -94,8 +94,8 @@ Make sure to fix all linting errors before submitting a pull request.
 
 #### 🆙 Updating dependencies
 
-Dependencies are updated via dependabot. It creates up to 5 pull requests with the updated dependencies every other
-week. Make sure to review and merge them to keep the project up to date.
+Dependencies are updated via [renovate](https://docs.renovatebot.com/). The config setup allows for instant merge of miscellaneous minor dependencies and
+issues for major ones which should be done manually.
 
 Additionally, you can run:
 

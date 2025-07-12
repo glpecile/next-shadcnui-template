@@ -1,44 +1,44 @@
 {
-	"name": "next-shadcn-template",
-	"description": "Template repository with TNT stack + a basic shadcn-ui config",
-	"author": "Gian Luca Pecile",
-	"repository": "https://github.com/glpecile/next-14-shadcn-template",
-	"version": "0.4.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev --turbo",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint",
-		"prepare": "husky"
-	},
-	"dependencies": {
-		"class-variance-authority": "^0.7.1",
-		"clsx": "^2.1.1",
-		"lucide-react": "^0.525.0",
-		"mini-svg-data-uri": "^1.4.4",
-		"motion": "12.19.3",
-		"next": "15.3.3",
-		"next-themes": "^0.4.6",
-		"react": "^19.1.0",
-		"react-dom": "^19.1.0",
-		"tailwind-merge": "^3.3.1",
-		"tailwindcss-animate": "^1.0.7"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "2.1.1",
-		"@commitlint/cli": "^19.8.1",
-		"@commitlint/config-conventional": "^19.8.1",
-		"@tailwindcss/postcss": "^4.1.11",
-		"@types/node": "^24.0.7",
-		"@types/react": "^19.0.10",
-		"@types/react-dom": "^19.0.3",
-		"eslint": "^9.30.0",
-		"eslint-config-next": "15.3.3",
-		"husky": "^9.1.7",
-		"postcss": "^8.5.5",
-		"tailwindcss": "^4.1.11",
-		"typescript": "^5.8.3"
-	},
-	"packageManager": "pnpm@10.13.1"
+    "name": "next-shadcn-template",
+    "description": "Template repository with TNT stack + a basic shadcn-ui config",
+    "author": "Gian Luca Pecile",
+    "repository": "https://github.com/glpecile/next-shadcnui-template",
+    "version": "0.4.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev --turbo",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "prepare": "husky"
+    },
+    "dependencies": {
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "lucide-react": "^0.525.0",
+        "mini-svg-data-uri": "^1.4.4",
+        "motion": "12.19.3",
+        "next": "15.3.3",
+        "next-themes": "^0.4.6",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0",
+        "tailwind-merge": "^3.3.1",
+        "tailwindcss-animate": "^1.0.7"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "2.1.1",
+        "@commitlint/cli": "^19.8.1",
+        "@commitlint/config-conventional": "^19.8.1",
+        "@tailwindcss/postcss": "^4.1.11",
+        "@types/node": "^24.0.7",
+        "@types/react": "^19.0.10",
+        "@types/react-dom": "^19.0.3",
+        "eslint": "^9.30.0",
+        "eslint-config-next": "15.3.3",
+        "husky": "^9.1.7",
+        "postcss": "^8.5.5",
+        "tailwindcss": "^4.1.11",
+        "typescript": "^5.8.3"
+    },
+    "packageManager": "pnpm@10.13.1"
 }
