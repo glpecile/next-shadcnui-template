@@ -6,7 +6,7 @@ by [Gian Luca Pecile](https://github.com/glpecile).
 
 ## 🔋 What's included
 
-- [Next.js 15](https://nextjs.org/)
+- [Next.js 16](https://nextjs.org/)
 - [Shadcn UI 2](https://ui.shadcn.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Biome.js](https://biomejs.dev/)
