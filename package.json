@@ -25,7 +25,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.6",
+    "@biomejs/biome": "2.5.7",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@tailwindcss/postcss": "^4.3.3",
@@ -35,7 +35,7 @@
     "eslint": "^9.39.5",
     "eslint-config-next": "16.2.10",
     "husky": "^9.1.7",
-    "postcss": "^8.5.25",
+    "postcss": "^8.5.26",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.9.3"
   },
